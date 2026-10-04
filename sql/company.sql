@@ -10,14 +10,14 @@ select*from employee;
 insert into employee(
 id,name,department,salary)
 values(
-101,"jashwant","Girlhostel",100000),
-(102,"Shabari","True Love",70000),
-(103,"chanti","Girlhostel",80000),
-(104,"Dinesh","Movie",50000),
-(105,"ssv","Movie",60000),
-(106,"vishnu","Study",75000),
-(107,"ram","True Love",45000),
-(108,"rahul","Movie",30000);
+101,"jashwant","IT",100000),
+(102,"Shabari","Advertment",70000),
+(103,"chanti","IT",80000),
+(104,"Dinesh","Fashon",50000),
+(105,"ssv","Fashon",60000),
+(106,"vishnu","HR",75000),
+(107,"ram","Advertment",45000),
+(108,"rahul","IT",30000);
 
 select*from employee
 where salary>60000;
